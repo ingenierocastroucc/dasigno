@@ -1,0 +1,6 @@
+@Demokrata_HostAddress = http://localhost:5152
+
+GET {{Demokrata_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
