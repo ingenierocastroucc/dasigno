@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demokrata", "Demokrata\Demokrata.csproj", "{588EFBF3-1FC8-41AA-AEEB-249B1B10744F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demokrata", "Demokrata\Demokrata.csproj", "{588EFBF3-1FC8-41AA-AEEB-249B1B10744F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemokrataTest", "DemokrataTest\DemokrataTest.csproj", "{C3C443A1-6226-46B3-86AB-5E9514E6C10F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{588EFBF3-1FC8-41AA-AEEB-249B1B10744F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{588EFBF3-1FC8-41AA-AEEB-249B1B10744F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{588EFBF3-1FC8-41AA-AEEB-249B1B10744F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C443A1-6226-46B3-86AB-5E9514E6C10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C443A1-6226-46B3-86AB-5E9514E6C10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C443A1-6226-46B3-86AB-5E9514E6C10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C443A1-6226-46B3-86AB-5E9514E6C10F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

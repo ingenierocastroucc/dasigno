@@ -249,5 +249,15 @@ DELETE https://localhost:(puerto)/api/Usuarios/EliminarUsuario/{id}
 
 ## Pruebas Unitarias
 
+El proyecto incluye pruebas unitarias para verificar la funcionalidad de los servicios relacionados con la gestion de usuarios
 
-Este README proporciona una visión general completa del proyecto, cubriendo la configuración, los endpoints, la configuración de CORS, la validación del modelo y pruebas unitarias con Xunit y Moq. Está diseñado para ayudar a otros desarrolladores a entender y usar la API de manera efectiva.
+**Descripción de las Pruebas**
+
+**DemokrataTest**
+
+**CrearUsuarioValidado:** Verifica que el endpoint de creacion de usuarios retorne un resultado OK con los datos esperados, luego de la creacion del usuario.
+**ObtenerUsuarioPorId:** Verifica que el endpoint de obtencion de usuarios retorna un usuario consultado.
+**ActualizarUsuarioExistente:** Verifica que el endpoint para actualizar usuarios se ejecute correctamente.
+**EliminarUsuarioExistente:** Verifica que el endpoint de eliminar usuarios se ejecute correctamente.
+
+Este README proporciona una visión general completa del proyecto, cubriendo la configuración, los endpoints, la validación del modelo y pruebas unitarias con Xunit y Moq. Está diseñado para ayudar a otros desarrolladores a entender y usar la API de manera efectiva.
